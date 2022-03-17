@@ -2,19 +2,21 @@
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Serif+Display&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Serif+Display&family=Roboto+Slab&family=ZCOOL+XiaoWei&display=swap');
+
 
 /* Styles for the body */
 
 body {
-	font-family:'Roboto Slab', serif;
+	font-family: 'ZCOOL XiaoWei', serif;
 	color: #202030;
 	background-color: #f8f8fc;
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
-.resume-header {
+.resume-header {font-family: 'Noto Serif Display', serif;
     background-color: #A7BEE6
 ;
 }
@@ -38,7 +40,7 @@ body {
 	margin-left: -1em;
 }
 
-.biography-details li::before {
+.biography-details li::before { 
 	color: #EE7623;
 }
 
